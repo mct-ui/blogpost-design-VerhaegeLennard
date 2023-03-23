@@ -337,12 +337,24 @@ a:active {
 .c-author {
   display: flex;
   align-items: center;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
 }
-
 .c-author__image {
   width: 56px;
   height: 56px;
   border-radius: 100%;
+}
+.c-author__name {
+  margin-bottom: 0;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.c-author__meta {
+  font-size: 0.8888888889rem;
+  font-family: "Inter Web", serif;
+  line-height: 1.5rem;
+  margin-top: 0.25rem;
 }
 
 /*
