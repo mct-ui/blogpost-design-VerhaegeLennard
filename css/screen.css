@@ -334,6 +334,17 @@ a:active {
 /*
     Components: Author
 */
+.c-author {
+  display: flex;
+  align-items: center;
+}
+
+.c-author__image {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+
 /*
     Components: Quote
 */

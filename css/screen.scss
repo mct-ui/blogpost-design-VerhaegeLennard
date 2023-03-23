@@ -520,6 +520,32 @@ a:active {
     Components: Author
 */
 
+.c-author {
+  display: flex;
+  align-items: center;
+  margin-bottom: $space-m;
+  gap: $space-s;
+}
+
+&__image {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+
+&__name {
+  margin-bottom: 0;
+  font-size: $ms0;
+  line-height: $space-m;
+}
+
+&__meta {
+  font-size: $ms-1;
+  font-family: $font-family-secondary;
+  line-height: $space-m;
+  margin-top: $space-xxs;
+}
+
 /*
     Components: Quote
 */
