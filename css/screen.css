@@ -25,6 +25,20 @@ img {
   max-width: 100%;
 }
 
+@font-face {
+  font-family: "Inter Web";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url(../fonts/Inter-Regular.woff2) format(woff2);
+}
+@font-face {
+  font-family: "Inter Web";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url(../fonts/Inter-Bold.woff2) format(woff2);
+}
 /*---------------------------------------/*
  # ELEMENTS
 /*---------------------------------------*/
@@ -36,7 +50,7 @@ img {
 html {
   font-size: 100%;
   line-height: 1.5;
-  font-family: Helvetica, arial, sans-serif;
+  font-family: "Droid-Serif", arial, sans-serif;
   color: hsl(198.0786026201, 10%, 30%);
   scroll-behavior: smooth;
 }
@@ -60,6 +74,7 @@ html {
 */
 h1, h2, h3, h4, h5, h6 {
   color: hsl(198.0786026201, 10%, 10%);
+  font-family: "Inter Web", serif;
 }
 
 h1 {
@@ -67,6 +82,7 @@ h1 {
   font-weight: 700;
   line-height: 2rem;
   margin-bottom: 1.5rem;
+  font-family: "Playfair Display", serif;
 }
 
 h2 {

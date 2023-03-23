@@ -119,8 +119,8 @@ $ms9: calc($ms8 * $ratio); // 52px
 $ms10: calc($ms9 * $ratio); // 58px
 $ms11: calc($ms10 * $ratio); // 66px
 
-$font-family-primary: Helvetica, arial, sans-serif;
-$font-family-secondary: Times, serif;
+$font-family-primary: 'Droid-Serif', arial, sans-serif;
+$font-family-secondary: 'Inter Web', serif;
 
 // ---
 // Settings: Spacing
@@ -189,6 +189,22 @@ img {
   max-width: 100%; // make images responsive
 }
 
+@font-face {
+  font-family: 'Inter Web';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url(../fonts/Inter-Regular.woff2) format(woff2);
+}
+
+@font-face {
+  font-family: 'Inter Web';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url(../fonts/Inter-Bold.woff2) format(woff2);
+}
+
 /*---------------------------------------/*
  # ELEMENTS
 /*---------------------------------------*/
@@ -224,6 +240,7 @@ html {
 
 h1,h2,h3,h4,h5,h6 {
   color: $color-text;
+  font-family: $font-family-secondary;
 }
 
 h1 {
@@ -231,6 +248,7 @@ h1 {
   font-weight: 700;
   line-height: calc($baseline * 4);
   margin-bottom: $space-m;
+  font-family: 'Playfair Display', serif;
 }
 
 h2 {
