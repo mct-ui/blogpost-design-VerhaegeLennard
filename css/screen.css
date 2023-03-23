@@ -53,6 +53,8 @@ html {
   font-family: "Droid-Serif", arial, sans-serif;
   color: hsl(198.0786026201, 10%, 30%);
   scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /*
@@ -357,6 +359,10 @@ a:active {
     Scope: Content
     Specific behaviour inside s-content class
 */
+.s-content * + h2 {
+  margin-top: 3rem;
+}
+
 /*---------------------------------------/*
  # UTILITIES
 /*---------------------------------------*/

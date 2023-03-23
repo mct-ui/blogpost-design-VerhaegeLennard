@@ -221,6 +221,8 @@ html {
   font-family: $font-family-primary; // global font-family
   color: $color-text-light; // global text color
   scroll-behavior: smooth; // smooth scrolling
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing:grayscale;
 }
 
 /*
@@ -545,6 +547,12 @@ a:active {
     Scope: Content
     Specific behaviour inside s-content class
 */
+
+.s-content * + h2 {
+
+  margin-top: $space-xl;
+ 
+ }
 
 /*---------------------------------------/*
  # UTILITIES
